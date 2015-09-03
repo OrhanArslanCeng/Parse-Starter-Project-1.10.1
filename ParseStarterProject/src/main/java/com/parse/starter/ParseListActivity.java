@@ -38,6 +38,7 @@ public class ParseListActivity extends ListActivity {
                     newPet.setType(pet.getType());
                     pets.add(newPet);
                     Log.i(pet.getName(),"dsad");
+                    //ojjoıjıp
                 }
 
                 ArrayAdapter<Pets> adapter = new ArrayAdapter<Pets>(ParseListActivity.this, android.R.layout.simple_list_item_1, pets);
